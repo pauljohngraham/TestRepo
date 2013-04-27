@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MVCWebsite" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Projects\\AzureTraining\\MVCWebsite\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Projects\\AzureTraining\\MVCWebsite\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-MVCWebsite-20130427114127;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-MVCWebsite-20130427114127.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\AzureTraining\\MVCWebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="PersonContext-Web.config Connection String" description="" value="Server=tcp:apvnld2ldr.database.windows.net,1433;Database=mvcwebsite;User ID=dbuser@apvnld2ldr;Password=Passw0rd;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\AzureTraining\\MVCWebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PersonContext']/@connectionString" />
+  </parameter>
+</parameters>
